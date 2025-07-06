@@ -1,1 +1,39 @@
 # Flow_Cytometry_Data_Analysis
+
+Flow_Cytometry_Data_Analysis is a pipeline for analysing flow cytometry .fcs files to quantify reporter activation in HEK293T cells. It applies gating strategies, calculates activation metrics, and generates outputs for further analysis.
+
+Scripts
+
+Analysing_FCS_files.py
+Main pipeline script. Reads input .csv files specifying conditions and replicates, processes corresponding .fcs data, applies gating strategies, and outputs numerical summaries and plots.
+
+functions_fcs_file_analysis.py
+
+Contains functions to:
+
+    Define gating strategies for Blanc and REP conditions
+    Select cells within gates
+    Extract contour data and gate coordinates
+
+functions_FlowC_analysis.py
+
+Contains functions to:
+
+    Assign guide colour codes
+    Generate bar plots from output data
+
+Example input files
+
+Folder input_FCS_files_and_lists/0_Files_inputs_for_fcs_analysis_program includes an example input .csv file (00_example_data.csv) together with example .fcs files. Please use the same format and replace paths and sequences with your custom data.
+
+Prerequisites
+
+Requirement	Version	Notes
+Python	2.7.x	Code won’t run under Python ≥3.0 without edits.
+FlowCal	–	For flow cytometry data parsing and plotting
+numpy	–	
+scipy	–	
+pandas	–	
+matplotlib	–	
+scikit-image	–	
+fcsparser	–	
