@@ -38,10 +38,5 @@ Optionally, you can also modify condition names as well as the exact plasmid nam
 
 Requirement	Version	Notes
 Python	2.7.x	Code won’t run under Python ≥3.0 without edits.
-FlowCal	–	For flow cytometry data parsing and plotting
-numpy	–	
-scipy	–	
-pandas	–	
-matplotlib	–	
-scikit-image	–	
-fcsparser	–	
+FlowCal	–	Castillo-Hair S.M., Sexton J.T., et al. FlowCal: A User-Friendly, Open Source Software Tool for Automatically Converting Flow Cytometry Data from Arbitrary to Calibrated Units.. ACS Synth. Biol. 2016.
+Other requirements: numpy, scipy, pandas, matplotlib, scikit-image	and fcsparser
