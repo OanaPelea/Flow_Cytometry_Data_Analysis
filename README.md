@@ -1,6 +1,12 @@
 # Flow_Cytometry_Data_Analysis
 
-Flow_Cytometry_Data_Analysis is a pipeline for analysing flow cytometry .fcs files to quantify reporter activation in HEK293T cells. It applies gating strategies, calculates activation metrics, and generates outputs for further analysis.
+Flow_Cytometry_Data_Analysis is a pipeline for analysing flow cytometry .fcs files to quantify reporter activation in HEK293T cells. It applies gating strategies, calculates activation metrics, and generates outputs for further analysis. 
+
+This code is associated with the publication:
+
+Specific Modulation of CRISPR Transcriptional Activators through RNA-Sensing Guide RNAs in Mammalian Cells and Zebrafish Embryos
+Oana Pelea, Sarah Mayes, Quentin R.V. Ferry, Tudor A. Fulga, Tatjana Sauka-Spengler
+eLife. https://doi.org/10.7554/eLife.87722.2
 
 Scripts
 
