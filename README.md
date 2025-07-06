@@ -24,7 +24,11 @@ Contains functions to:
 
 Example input files
 
-Folder input_FCS_files_and_lists/0_Files_inputs_for_fcs_analysis_program includes an example input .csv file (00_example_data.csv) together with example .fcs files. Please use the same format and replace paths and sequences with your custom data.
+Folder input_FCS_files_and_lists/0_Files_inputs_for_fcs_analysis_program includes an example input .csv file (00_example_data.csv) together with example .fcs files.
+
+Please use the same format for your own experiments. The input file has three columns for replicate filenames (filename_repeat_1, filename_repeat_2, and filename_repeat_3). Fill in the appropriate data names and file paths for up to three experimental replicates per condition – each column can take the input filename for one replicate.
+
+Optionally, you can also modify condition names as well as the exact plasmid names transfected in each experiment to match your specific setup.
 
 Prerequisites
 
